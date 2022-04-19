@@ -1,0 +1,23 @@
+GETUrl=https://reqres.in/api/users?page=2
+EmployeeName1=sandeep
+EmployeeName2=Kiran
+Job1=Developer
+Job2=QA Engineer
+PostURL=https://reqres.in/api/users
+EmployeeID1=126
+EmployeeID2=497
+DeleteURL=https://reqres.in/api/users/
+statusLineforPost=HTTP/1.1 201 Created
+Headertype=Connection
+HeaderValue= keep-alive
+ResponseTime=3000L
+HeaderContent=content-type
+HeaderContentType=application/json
+PUTurl=https://reqres.in/api/users/2
+DELETEurl=https://reqres.in/api/users/2
+EmployeeEmail=yugandhar@gmail.com
+PostUnsuccessful=https://reqres.in/api/register
+StatusLineBadRequest=HTTP/1.1 400 Bad Request
+AuthenticationURL=https://restapi.demoqa.com/authentication/CheckForAuthentication/
+BearertokenName=QA
+BearerTokenPostURL=http://restapi.adequateshop.com/api/authaccount/registration
