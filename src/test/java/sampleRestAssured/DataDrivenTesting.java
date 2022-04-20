@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import RestAssured.Datahelper.DataForTests;
 import RestAssured.Utils.LoadData;
 import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 
 public class DataDrivenTesting extends DataForTests
 {
@@ -47,7 +48,6 @@ public class DataDrivenTesting extends DataForTests
 
 
 	}
-	
 		
 		}		    
 		

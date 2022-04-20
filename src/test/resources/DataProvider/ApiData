@@ -1,4 +1,7 @@
-GETUrl=https://reqres.in/api/users?page=2
+GETUrl=https://reqres.in/api/users?page=2 
+Verifyindex1=0
+VerifyID1=7
+VerifyEmail1=michael.lawson@reqres.in
 EmployeeName1=sandeep
 EmployeeName2=Kiran
 Job1=Developer
@@ -8,6 +11,7 @@ EmployeeID1=126
 EmployeeID2=497
 DeleteURL=https://reqres.in/api/users/
 statusLineforPost=HTTP/1.1 201 Created
+StatusLineforGET=HTTP/1.1 200 OK
 Headertype=Connection
 HeaderValue= keep-alive
 ResponseTime=3000L
@@ -21,3 +25,13 @@ StatusLineBadRequest=HTTP/1.1 400 Bad Request
 AuthenticationURL=https://restapi.demoqa.com/authentication/CheckForAuthentication/
 BearertokenName=QA
 BearerTokenPostURL=http://restapi.adequateshop.com/api/authaccount/registration
+BearertokenGetUsers=http://restapi.adequateshop.com/api/users?page=1
+GithubAPIToken=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
+GithubInvalidToken=p_kv358dwboSkyHO8rMZUiVGTP7pvuIS21KqKd
+GithubGET.URL=https://api.github.com/user/repos
+PathParameterGET.URI=https://restful-booker.herokuapp.com
+PathPArameterBasPath={basePath}/{bookingId}
+Parameter1=booking
+Parameter2=3
+InvalidPathParameter=400
+StatusNotFoundLine=HTTP/1.1 404 Not Found

@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3577" started-at="2022-04-19T18:14:23 IST" finished-at="2022-04-19T18:14:26 IST">
+  <suite name="Default suite" duration-ms="4419" started-at="2022-04-20T17:33:37 IST" finished-at="2022-04-20T17:33:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3577" started-at="2022-04-19T18:14:23 IST" finished-at="2022-04-19T18:14:26 IST">
+    <test name="Default test" duration-ms="4419" started-at="2022-04-20T17:33:37 IST" finished-at="2022-04-20T17:33:42 IST">
       <class name="sampleRestAssured.AuthenticationAPIExample">
-        <test-method status="PASS" signature="bearerTokenAuthentication()[pri:0, instance:sampleRestAssured.AuthenticationAPIExample@27f723]" name="bearerTokenAuthentication" duration-ms="3511" started-at="2022-04-19T18:14:23 IST" finished-at="2022-04-19T18:14:26 IST">
+        <test-method status="PASS" signature="queryParam()[pri:0, instance:sampleRestAssured.AuthenticationAPIExample@7b69c6ba]" name="queryParam" duration-ms="4369" started-at="2022-04-20T17:33:37 IST" finished-at="2022-04-20T17:33:42 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bearerTokenAuthentication -->
+        </test-method> <!-- queryParam -->
       </class> <!-- sampleRestAssured.AuthenticationAPIExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

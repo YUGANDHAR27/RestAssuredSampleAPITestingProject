@@ -38,10 +38,10 @@ public class SampleAPITestingExamples
 	//@Test
 	void Test_02()
 	{
-		get("https://reqres.in/api/users?page=2").then().assertThat().
-		body("data.id[0]", Is.is(7))
-		.body("data.email", hasItem("michael.lawson@reqres.in"))
-		.header("Connection", "keep-alive")
+		get(data.readData("GETUrl")).then().assertThat().
+		body("data.id[0]", Is.is(data.readData("VerifyID1")))
+		.body("data.email", hasItem(data.readData("VerifyEmail1")))
+		.header(data.readData("Headertype"), data.readData("HeaderValue"))
 		.statusCode(200).log().headers();
 
 	}

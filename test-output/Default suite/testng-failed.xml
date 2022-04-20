@@ -5,7 +5,7 @@
     <classes>
       <class name="sampleRestAssured.AuthenticationAPIExample">
         <methods>
-          <include name="AutherizationTest"/>
+          <include name="oAuth2WithInvalidToken"/>
         </methods>
       </class> <!-- sampleRestAssured.AuthenticationAPIExample -->
     </classes>
